@@ -1,2 +1,8 @@
-Então agora que já criamos o esqueleto do nosso projeto, já instalamos algumas dependências, já temos aqui um arquivo “package.json” que vamos mexer nele, vamos alterar ele durante o curso, já podemos começar a codar, a pensar no nosso problema.
-Vamos dar uma relembrada então, temos que acessar arquivos escritos no formato markdown e então percorrer esses arquivos, em busca de estruturas de links, lembrando que os links no formato markdown ele sempre tem a mesma cara, são colchetes e depois parênteses.
+A interface File provê informações sobre arquivos e permite ao JavaScript  a acessar seu conteúdo.
+
+São geralmente recuperados a partir de um objeto [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList) 
+que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento [<input>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input), 
+a partir do objeto [DataTransfer](https://developer.mozilla.org/pt-BR/docs/Web/API/DataTransfer) utilizado em operações de arrastar e solta
+r, ou a partir da API `mozGetAsFile()` em um [HTMLCanvasElement](https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLCanvasElement). Em Gecko, c
+ódigos com privilégiios podem criar objetos File representando qualquer arquivo local sem a intereção do us
+uário (veja [Implementation notes](https://developer.mozilla.org/pt-BR/docs/Web/API/File#implementation_notes) para mais informações.)
